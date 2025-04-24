@@ -3,8 +3,8 @@
 
 let altura = 1.75;
 
-let peso = 69;
+let peso = 70;
 
-let divisao_imc = altura/peso;
+let divisao_imc = (peso/(altura*altura));
 
-console.log(divisao_imc.toFixed(4));
+console.log(`Seu IMC é: ${divisao_imc.toFixed(2)}`);

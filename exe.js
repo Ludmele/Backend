@@ -32,3 +32,7 @@
 // Declarando uma constante
 
         // const é usado para não mudar a variável, conceito de imutabilidade
+
+
+        // interpolação ---> console.log(`${idade}`)
+        //concatenação ---> console.log(" "+idade+)
